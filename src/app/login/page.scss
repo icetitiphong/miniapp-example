@@ -1,0 +1,42 @@
+.full-background {
+  background-image: url("../assets/login_bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 16px;
+}
+
+.hero-body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end !important;
+}
+
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  button {
+    font-size: 16px;
+    background: white;
+    color: black;
+    border-radius: 8px;
+    height: 56px;
+    width: 100%;
+  }
+}
+
+//   .buttons {
+//     width: 100%;
+//     button {
+//       font-size: 16px;
+//       background: white;
+//       height: 56px;
+//       width: 100%;
+//     }
+//   }

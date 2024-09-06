@@ -2,11 +2,13 @@
 
 import { getCustomerProfile, initAuth, initPayment } from "@/lib/frontend";
 import Image from "next/image";
+import Login from "./login/page";
 
 export default function Home() {
   return (
     <div className="w-full h-screen flex flex-col justify-center items-center">
-      <Image
+      <Login></Login>
+      {/* <Image
         src={"/assets/logo/mini-app-logo.svg"}
         className="logo mini-app"
         width={96}
@@ -15,7 +17,7 @@ export default function Home() {
       />
       <div className="flex flex-col justify-center items-center pt-14">
         <h1 className="text-3xl font-semibold">Welcome to Mini App</h1>
-      </div>
+      </div> */}
       {/*Example of how to use the functions from the lib/frontend/index.ts*/}
       {/* uncomment the button below to enable exchange token button */}
       {/* <button

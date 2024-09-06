@@ -7,7 +7,7 @@ import Login from "./login/page";
 export default function Home() {
   return (
     <div className="w-full h-screen flex flex-col justify-center items-center">
-      {/* <Login></Login> */}
+      <Login></Login>
       {/* <Image
         src={"/assets/logo/mini-app-logo.svg"}
         className="logo mini-app"
@@ -20,7 +20,7 @@ export default function Home() {
       </div> */}
       {/*Example of how to use the functions from the lib/frontend/index.ts*/}
       {/* uncomment the button below to enable exchange token button */}
-      <button
+      {/* <button
         onClick={() =>
           initAuth(
             (result) => {
@@ -35,7 +35,7 @@ export default function Home() {
         }
       >
         Exchange Token
-      </button>
+      </button> */}
       {/* uncomment the button below to enable get customer profile button */}
       {/* <button
         onClick={async () => {

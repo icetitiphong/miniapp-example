@@ -10,16 +10,17 @@ const Login = () => {
             type="button"
             className="text-white"
             onClick={() =>
-              initAuth(
-                (result) => {
-                  // add logic to handle accessToken here
-                  console.log(result);
-                  sessionStorage.setItem("accessToken", result.accessToken);
-                },
-                (errorCode, errorDescription) => {
-                  console.error(errorCode, errorDescription);
-                }
-              )
+              console.log('hi')
+              // initAuth(
+              //   (result) => {
+              //     // add logic to handle accessToken here
+              //     console.log(result);
+              //     sessionStorage.setItem("accessToken", result.accessToken);
+              //   },
+              //   (errorCode, errorDescription) => {
+              //     console.error(errorCode, errorDescription);
+              //   }
+              // )
             }
           >
             Login with Paotang
